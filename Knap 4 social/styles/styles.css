@@ -1,0 +1,171 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	padding: 0;
+	margin: 0;
+	
+}
+
+.social{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	text-align: center;
+}
+#btn1{
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	background: #f1f1f1;
+	margin: 10px;
+	border-radius: 30%;
+	box-shadow: 0 5px 15px -5px #00000070;
+	color: #3498db;
+	overflow: hidden;
+	position: relative;
+}
+#btn2{
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	background: #f1f1f1;
+	margin: 10px;
+	border-radius: 30%;
+	box-shadow: 0 5px 15px -5px #00000070;
+	color: #3498db;
+	overflow: hidden;
+	position: relative;
+}
+#btn3{
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	background: #f1f1f1;
+	margin: 10px;
+	border-radius: 30%;
+	box-shadow: 0 5px 15px -5px #00000070;
+	color: red;
+	overflow: hidden;
+	position: relative;
+}
+#btn4{
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	background: #f1f1f1;
+	margin: 10px;
+	border-radius: 30%;
+	box-shadow: 0 5px 15px -5px #00000070;
+	color: #AA409A;
+	overflow: hidden;
+	position: relative;
+}
+#btn5{
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	background: #f1f1f1;
+	margin: 10px;
+	border-radius: 30%;
+	box-shadow: 0 5px 15px -5px #00000070;
+	color: red;
+	overflow: hidden;
+	position: relative;
+}
+
+#btn1 i,
+#btn2 i,
+#btn3 i,
+#btn4 i,
+#btn5 i
+{
+	line-height: 90px;
+	font-size: 26px;
+	transition: 0.2s linear;
+}
+#btn1:hover i,
+#btn2:hover i,
+#btn3:hover i,
+#btn4:hover i,
+#btn5:hover i
+{
+	transform: scale(1.3);
+	color: #f1f1f1;
+}
+#btn1::before{
+	content: "";
+	position: absolute;
+	width: 120%;
+	height: 120%;
+	background: #3498bd;
+	transform: rotate(45deg);
+	left: -110%;
+	top: 90%;
+}
+#btn2::before{
+	content: "";
+	position: absolute;
+	width: 120%;
+	height: 120%;
+	background: #3498bd;
+	transform: rotate(45deg);
+	left: -110%;
+	top: 90%;
+}
+#btn3::before{
+	content: "";
+	position: absolute;
+	width: 120%;
+	height: 120%;
+	background: red;
+	transform: rotate(45deg);
+	left: -110%;
+	top: 90%;
+}
+#btn4::before{
+	content: "";
+	position: absolute;
+	width: 120%;
+	height: 120%;
+	background: #AA409A;
+	transform: rotate(45deg);
+	left: -110%;
+	top: 90%;
+}
+#btn5::before{
+	content: "";
+	position: absolute;
+	width: 120%;
+	height: 120%;
+	background: red;
+	transform: rotate(45deg);
+	left: -110%;
+	top: 90%;
+}
+#btn1:hover::before,
+#btn2:hover::before,
+#btn3:hover::before,
+#btn4:hover::before,
+#btn5:hover::before{
+	animation: aaa 0.7s 1;
+	top: -10%;
+	left: -10%;
+}
+
+@keyframes aaa {
+	0%{
+		top: -110%;
+	    left: 90%;
+	}50%{
+		top: 10%;
+	    left: -30%;
+		
+	}100%{
+		top: -10%;
+	    left: -10%;
+	}
+}
+
+
